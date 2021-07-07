@@ -132,7 +132,8 @@ Never gonna tell a lie and hurt you
          function vote(){
          document.getElementById("choice").innerHTML = random.title;
          document.getElementById("choice").style.color = random.color;
-         
+         dataLayer.push({'eventLabel' : random.title});
+
          }
       </script>    
    </head>
